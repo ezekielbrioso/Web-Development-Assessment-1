@@ -1,0 +1,63 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* sets font family for the entire document*/
+    margin: 0; /*removes default margin*/
+    padding: 0; /*removes default padding*/
+    background-color: #f2f2f2; /*sets the background color of the document*/
+}
+
+h1 {
+    text-align: center; /*centers the text*/
+    color: #333; /*displays the heading one text using this color*/
+}
+
+h2 {
+    color: #5c5a5a;/*displays the heading two text using this color*/
+}
+
+p {
+    color: #444; /*displays the paragraph text using this color*/
+    text-align: center; /*centers the text in <p> elements*/
+}
+
+img {
+    display: block; /*displays images as block elements*/
+    margin: 0 auto; /*centers images*/
+}
+
+table {
+    margin: 20px auto; /*centers the table with proper margin*/
+    border-collapse: collapse; /*collapses the borders*/
+}
+
+th, td {
+    padding: 10px; /*adds padding to the tables*/
+    border: 1px solid #ddd; /*displays border style for table cells*/
+    text-align: center; /*centers the text inside the table cells*/
+}
+
+th {
+    background-color: #b5bb9a; /*sets background color for table*/
+}
+
+ul, ol {
+    margin-left: 20px; /*adds margin to the left of the unordered and ordered lists*/
+}
+
+li {
+    margin-bottom: 5px; /*adds margin to the bottom of the list*/
+}
+
+.container {
+    width: 80%; /*sets width of containers to 80%*/
+    margin: 0 auto; /*centers the container*/
+    overflow: hidden; /*clear floats*/
+}
+
+#Ingredients,
+#Method {
+    width: 45%; /*adjusted width for both sections*/
+    padding: 20px; /*adds padding to the sections*/
+    box-sizing: border-box; /*include padding in width calculation*/
+    margin: 0 2%; /*makes the margin equal on left and right */
+    float: left; /*Floats the sections to the left*/
+}

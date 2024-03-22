@@ -1,0 +1,29 @@
+#A {
+  border-color: rgb(137, 43, 225); /*sets border color to purple*/
+  box-shadow: 10px 10px 10px rgb(255, 27, 26); /*adds drop shadow effect with blurring*/ 
+}
+
+#B {
+    border-color: rgb(0, 255, 1); /*set sborder color to green*/
+    box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.901);  /*adds inner shadow effect with blurring*/
+}
+
+#C {
+    border: 4px solid transparent; /*sets border*/
+    border-radius: 15px; /*rounds the corners*/
+    box-shadow: 
+      0 0 0 4px rgb(255, 140, 0), /*the last px are the thickness of the border*/
+      0 0 0 15px rgb(0, 0, 254), 
+      0 0 0 25px rgb(254, 0, 0),
+      0 0 0 35px rgb(0, 128, 1);
+
+}
+
+#D {
+    border: 4px solid rgb(178, 34, 34); /*sets border*/
+}
+  
+
+#D::first-line {
+    text-shadow: 5px 5px 1px rgba(0, 0, 0, 0.977); /*adds drop down shadow on the text*/
+}

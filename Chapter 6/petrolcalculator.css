@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif; /*sets font*/
+    margin: 0; /*removes default margin*/
+    padding: 0; /*removes default padding*/ 
+    background-color: #f2f2f2; /*sets background color*/
+}
+
+.calculator {
+    max-width: 400px; /*sets maximum width*/
+    margin: 50px auto; /*sets top and bottom margin to 50px and auto on left and right*/
+    padding: 20px; /*sets padding*/
+    background-color: #fff; /*sets background color to white*/
+    border-radius: 5px; /*adds border radius which rounds the corner*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /*adds shadow effect to the calculator*/
+}
+
+h1 {
+    text-align: center; /*aligns text to the center*/
+}
+
+.input-field {
+    margin-bottom: 15px; /*adds margin on the bottom*/
+}
+
+label {
+    display: block; /*makes labels to behave like a block-element*/
+    margin-bottom: 5px; /*adds margin on the bottom*/
+}
+
+input[type="number"] {
+    width: 100%; /*sets width*/
+    padding: 8px; /*adds padding*/
+    border-radius: 3px; /*rounds corner*/
+    border: 1px solid #ccc; /*sets border with light gray color*/
+    transition: border-color 0.3s; /*adds smooth transition on the border when it's changing*/
+}
+
+input[type="number"]:focus {
+    border-color: #121415;/*sets border color*/
+}
+
+button {
+    width: 100%; /*sets width*/
+    padding: 10px; /*adds padding*/
+    background-color: #23201f; /*sets bg color*/
+    color: #fff; /*sets text color*/
+    border: none; /*removes border*/
+    border-radius: 3px; /*rounds corner*/
+    cursor: pointer; /*changes cursor*/
+    transition: background-color 0.3s; /*adds smooth transition*/
+}
+
+button:hover {
+    background-color: #949494; /*sets bg color*/
+}
+
+p {
+    margin-top: 20px; /*adds margin on the top*/
+    text-align: center; /*aligns the text to the center*/
+}

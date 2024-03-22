@@ -1,0 +1,16 @@
+div {
+  display: inline-block; /*elements behave like inline elements*/
+  font-family: sans-serif; /*sets font fmaily*/
+  font-size: 20px; /*sets font size*/
+  margin: 25px; /*adds margin*/
+  border: 4px solid black; /*adds border*/
+  line-height: 100px; /*sets height of each line of text*/
+  text-align: center; /*aligns text to the center*/
+  width: 200px; /*sets width*/
+  height: 200px; /*sets height*/
+}
+
+body {
+  margin: 100px auto; /*adds 100px margin on top and bottom, and auto on left and right*/
+  width: max-content; /*allows element to expand to fit its content*/
+}

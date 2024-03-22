@@ -1,0 +1,78 @@
+h1{
+  font-family: Georgia, 'Times New Roman', Times, serif; /*sets font of the heading 1*/
+  text-align: center; /*aligns text to the center*/
+  font-size: 50px; /*sets font size*/
+  margin-top: 50px; /*adds margin to the top*/
+}
+
+body{
+  background-color:mistyrose; /*sets the background color for the body*/
+}
+
+div.imageone {
+  margin-top: 100px; /*adds margin on the top*/
+  margin-left: 265px; /*adds margin on the left*/
+  border: 1px solid #ccc; /*adds border with light gray color*/
+  background-color:white; /*sets background color to white*/
+  float:left; /*floats element to the left*/
+  width: 300px; /*sets width*/
+  padding:10; /*adds padding*/
+  filter:sepia(50%) /*adds sepia filter to the image*/
+}
+
+div.imageone:hover {
+  border: 1px solid #d29797; /*changes border color when hovering*/
+}
+
+div.imageone img {
+  width: 100%; /*sets width*/
+  height: auto; /*sets height*/
+  display: block; /*makes the image a block element*/
+
+}
+
+p.description {
+  padding: 15px; /*adds padding*/
+  text-align: center; /*aligns the text to the center*/
+}
+div.imagetwo {
+  margin-top: 100px; /*adds margin on the top*/
+  margin-left: 5px; /*adds margin on the left*/
+  border: 1px solid #ccc; /*adds border with light gray color*/
+  background-color:white; /*sets background color to white*/
+  float:left; /*floats element to the left*/
+  width: 300px; /*sets width*/
+  padding:10; /*adds padding*/
+  filter: saturate(100%); /*adds saturation filter*/
+}
+  
+div.imagetwo:hover {
+  border: 1px solid #d29797; /*adds border with light pink color during hover*/
+}
+  
+div.imagetwo img {
+  width: 100%; /*sets width*/
+  height: auto; /*sets height*/
+  display: block;/*makes the image a block element*/
+}
+
+div.imagethree {
+  margin-top: 100px; /*adds margin on the top*/
+  margin-left: 5px; /*adds margin on the left*/
+  border: 1px solid #ccc; /*adds border  with light gray color*/
+  background-color:white; /*sets background color to white*/
+  float:left; /*floats element to the left*/
+  width: 300px; /*sets width*/
+  padding:10; /*adds padding*/
+  filter: grayscale(70%); /*adds greyscale filter*/
+}
+  
+div.imagethree:hover {
+  border: 1px solid #d29797; /*adds border with light pink color during hover*/
+}
+  
+div.imagethree img {
+  width: 100%; /*sets width*/
+  height: auto; /*sets height*/
+  display: block;/*makes the image a block element*/
+}

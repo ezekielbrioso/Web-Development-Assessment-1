@@ -1,0 +1,22 @@
+body, html {
+    margin: 0; /*removes default margin*/
+    padding: 0; /*removes default padding*/
+    height: 100%; /*sets height*/
+    display: flex; /*turn elements into flex containers*/
+    justify-content: center; /*centers the content*/
+    align-items: center; /*aligns the content to the center*/
+    background-color:rgb(164, 188, 160); /*sets bg color*/
+}
+
+.video-container {
+    position: relative;
+    width: 100%; /*sets width*/
+    max-width: 1000px; /* sets maximum width of the video container */
+    height: auto; /* height adjusts automatically */
+}
+
+video {
+    display: block; /*sets video element to display as a block*/
+    width: 100%; /*sets width*/
+    height: auto; /*adjusts height automatically*/
+}

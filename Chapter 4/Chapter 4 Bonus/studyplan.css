@@ -1,0 +1,68 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0; /*removes default margin*/
+    padding: 0; /*removes default padding*/
+}
+
+body {
+    font-family: Arial, sans-serif; /*sets font*/
+    background-color: #f0f0f0; /*sets background color*/
+}
+
+header {
+    background-color: #333; /*sets background color*/
+    color: #fff; /*sets font text*/
+    text-align: center; /*aligns text to the center*/
+    padding: 20px 0; /*adds 20 px padding on top and bottom, and 0 on left and right*/
+}
+
+nav {
+    background-color: #444; /*sets background color*/
+    padding: 10px 0; /*adds 10px padding on top and bottom, and 0 on left and right*/
+}
+
+nav ul {
+    list-style: none; /*removes list style*/
+    text-align: center; /*aligns text on the center*/
+}
+
+nav ul li {
+    display: inline; /*displays list items to inline*/
+    margin-right: 20px; /*adds margin on the right*/
+}
+
+nav ul li a {
+    color: #fff; /*sets text color*/
+    text-decoration: none; /*removes text decoration*/
+}
+
+main {
+    max-width: 1200px; /*sets maximum width*/
+    margin: 20px auto; /*adds 20px margin on top and bottom, and auto on left and right*/
+    padding: 0 20px; /*adds 0 padding on top and bottom, 20px on left and right*/
+}
+
+#content-wrapper {
+    display: flex; /*makes teh content wrapper a flex container*/
+    justify-content: space-between; /*distibutes the space evenly*/
+}
+
+#left-column, #middle-column, #right-column {
+    background-color: #ddd; /*sets background color*/
+    flex-basis: 30%; /*sets initial size of columns*/
+    padding: 20px; /*adds padding*/
+    border-radius: 5px; /*rounds corner*/
+}
+
+#left-column, #middle-column {
+    margin-right: 20px; /*adds margin on the right*/
+}
+
+footer {
+    background-color: #333; /*sets background color to black*/
+    color: #fff; /*sets text color to white*/
+    text-align: center; /*aligns the text to the center*/
+    padding: 10px 0; /*adds 10px padding on the top and bottom, and 0 on the left and right*/
+    position: fixed; /*fixes position of the footer*/
+    bottom: 0; /*positions the footer at the bottom*/
+    width: 100%; /*sets width*/
+}

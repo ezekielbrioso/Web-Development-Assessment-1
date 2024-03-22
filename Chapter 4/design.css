@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif; /*sets font family for the entire page*/
+    font-weight: 400; /*set font weight*/
+    font-size: 19px; /*set font size*/
+    margin: 0; /*removes margin*/
+    padding: 0; /*removes padding*/
+    color: black; /*sets color to black*/
+    text-align: justify; /*justify text*/
+}
+
+header {
+    background-color: #17072b; /*sets background color of the header*/
+    color: #FFFFFF; /*sets the text name to color white*/
+    padding: 10px 0; /*adds 10px padding on the top and bottom of the element and 0px on the left and right*/
+    text-align:center; /*aligns the text to the center*/
+}
+
+.container { /*styles a containter element*/
+    width: 95%; /*sets width of the container*/
+    margin: 0 auto; /*centers the container*/
+}
+
+header h1 {
+    font-family: Tahoma, sans-serif; /*sets the font family of heading 1*/
+    font-weight: 700; /*sets font weight to bold*/
+    margin: 0; /*removes default margin*/
+}
+
+nav ul {
+    list-style: none; /*removes default bullet points*/
+    padding: 0; /*removes default padding*/
+}
+
+nav ul li {
+    display: inline; /*displays the list items in a single line*/
+    margin-right: 20px; /*adds right margin*/
+}
+
+nav ul li:last-child { 
+    margin-right: 0; /*removes right margin*/
+}
+
+nav ul li a {
+    color: #FFFFFF; /*sets text color to white*/
+    text-decoration: none; /*removes text decoration*/
+}
+
+main {
+    padding: 20px 0; /*sets top and bottom padding to 20 px and 0px on the left and right*/
+    display: flex; /*sets display property to flex*/
+    justify-content: space-between; /*distributes space evenly*/
+}
+
+section {
+    flex-basis: 90%; /*defines initial size of a flex item*/
+}
+
+#welcome {
+    background-color: #FFFFFF; /*sets the bg color to white*/
+    color: #000000; /*sets the text color to black*/
+    padding: 5px; /*sets padding*/
+    padding-right: 90px; /*adds padding on the right*/
+    text-align: left; /*aligns the text to the left*/
+}
+
+#lineup {
+    background-color: #172d67; /*sets bg color*/
+    color: #FFFFFF; /*sets text color*/
+    padding: 15px; /*adds padding*/
+    padding-left: 60px; /*adds padding on the left*/
+    
+}
+footer {
+    background-color: #8c15e9; /*sets bg color*/
+    color: #FFFFFF; /*sets text color*/
+    padding: 1px; /*adds padding*/
+    text-align: center; /*aligns the text to the center*/
+}
+
+#image {
+    width: 5%; /*sets width*/
+    margin-right: 5px;  /*adds margin on the right*/
+    float: left; /*shift to the left*/
+}

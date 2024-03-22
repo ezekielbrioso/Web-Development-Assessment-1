@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif; /*sets font*/
+    margin: 0; /*removes default margin*/
+    padding: 0; /*removes default padding*/
+    background-color: #f5f0e1; /*sets background color*/
+}
+
+header, footer {
+    background-color: #7b5c3e; /*sets background color*/
+    color: #fff; /*sets text color*/
+    text-align: center; /*aligns text to the center*/
+    padding: 20px; /*adds padding*/
+}
+
+main {
+    padding: 20px; /*adds padding*/
+}
+
+section {
+    background-color: #d3bfa5; /*sets background color*/
+    padding: 20px; /*adds padding*/
+    margin-bottom: 20px; /*adds margin on the bottom*/
+    border-radius: 10px; /*rounds the corner*/
+}
+
+h1 {
+    color:#d3bfa5; /*sets text color*/
+}
+
+h2 {
+    color: #7b5c3e; /* brown */
+}
+
+ul {
+    list-style-type: none; /*removes bullet style*/
+    padding: 0; /*removes default padding*/
+}
+
+code {
+    background-color: #e0d9cf; /* light beige */
+    padding: 2px 5px; /*adds padding 2px on the top and bottom, 5px on left and right*/
+    border-radius: 3px; /*rounds the corners*/
+}
+
+pre {
+    background-color: #e0d9cf; /* light beige */
+    padding: 10px; /*adds padding*/
+    border-radius: 5px; /*rounds the corners*/
+    overflow-x: auto; /*controls overflow behavior*/
+}
+
+footer {
+    margin-top: 20px; /*adds marginon the top*/
+}

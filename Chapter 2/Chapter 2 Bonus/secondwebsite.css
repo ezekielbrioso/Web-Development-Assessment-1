@@ -1,0 +1,103 @@
+body
+{
+    background-color:#f8edff; /*sets background color for entire webpage*/
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /*sets font for entire webpage*/
+
+}
+
+h1
+{
+    color:darkmagenta; /*sets text color*/
+    text-align: left; /*aligns the text to the left*/
+    font-size:20px; /*sets font size*/
+    margin-left: 10; /*adds margin to the left*/
+
+}
+
+.menu{
+    background-color:#a2a3d4; /*sets background color*/
+    overflow:hidden; /*prevents the content from overflowing*/
+    font-size:18px;/*sets font size*/
+    color: white;/*sets text color*/
+    text-align: center;/*aligns the text to the left*/
+
+}
+.menu a{
+    float: right;/*float links to the right*/
+    color:white;/*sets text color*/
+    text-align: center;/*aligns text to the center*/
+    padding: 32px 27px; /*adds padding*/
+    text-decoration: none;/*removes decoration*/
+    font-size:18px;  /*sets font size*/
+}
+.menu a:hover {
+    background-color:#ccc4f2; /*changing background color during hover*/
+    color:black; /*sets text color to black*/
+}
+.menu a.active{
+    background-color:purple; /*sets bg color to purple*/
+    color:white; /*sets the color to white*/
+}
+.overview {
+    width: 95vw; /*sets width*/
+    height: 20vh; /*sets height*/
+    font-size: 24px; /*sets font size*/
+    color: black; /*sets the font text to black*/
+    text-align: center; /*aligns text to the center*/
+    padding: 25px; /*adds padding*/
+}
+
+.quote
+{
+    color:darkgoldenrod; /*sets the quote's text color to darkgoldenrod*/
+    margin: 10; /*adds margin*/
+    font-size:20px; /*sets font size*/
+    text-align: center; /*aligns text to the center*/
+}
+
+.plot{
+    width: 95vw; /*sets width*/
+    height: 20vh; /*sets height*/
+    font-size: 18px; /*sets font size*/
+    color: black; /*sets the font text to black*/
+    text-align: justify; /*justify text*/
+    padding: 25px; /*adds padding*/
+    margin-top: 30px; /*adds margin on the top*/
+}
+
+.keyinformation
+{
+    width: 95vw; /*sets width*/
+    height: 205vh; /*sets height*/
+    font-size: 24px; /*sets font size*/
+    color: black; /*sets the font text to black*/
+    text-align: center; /*aligns the text on the center*/
+    padding: 25px; /*adds padding*/
+}
+
+.cast_and_characters{
+    width: 95vw; /*sets width*/
+    height: 50vh; /*sets height*/
+    font-size: 24px; /*sets font size*/
+    color: black; /*sets the font text to black*/
+    text-align: center; /*aligns the text on the center*/
+    padding: 25px; /*adds padding*/
+}
+
+.reviews {
+    width: 95vw; /*sets width*/
+    height: 400vh; /*sets height*/
+    font-size: 24px; /*sets font size*/
+    color: black; /*sets the font text to black*/
+    text-align: left; /*aligns text on the left*/
+    padding: 25px;/*adds padding*/
+}
+.checked {
+    color: orange;/*sets the checked stars to color orange*/
+  }
+
+p{
+    font-size: 18px;/*sets font size*/
+    text-align:justify;/*justify text*/
+    margin: 30px/*adds margin*/
+}

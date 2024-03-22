@@ -1,0 +1,22 @@
+<html><!--start of HTML Document-->
+    <head><!--contians necessary info such as title and link-->
+        <title>Petrol Calculator</title> <!--sets the title-->
+        <link rel="stylesheet" href="petrolcalculator.css"> <!--contains external \CSS file link-->
+    </head><!--end of head-->
+    <body><!--start of body-->
+        <div class="calculator"><!--contains element-->
+            <h1>Petrol Calculator</h1><!--displays text using heading 1-->
+            <div class="input-field"><!--contains label and input-->
+                <label for="cost">Cost per liter (in $)</label> <!--creates label for "cost" input field-->
+                <input type="number" id="cost" step="0.01" value="1.72"><!--allows user to put numerical value-->
+            </div><!--closes div-->
+            <div class="input-field"><!--contains label and input-->
+                <label for="liters">Liters purchased</label><!--displays text/label-->
+                <input type="number" id="liters" step="0.01" placeholder="Enter the number of liters purchased"><!--placeholder where users can input a numerical value-->
+            </div>
+            <button onclick="calculateTotal()">Calculate Total</button><!--creates a button that calculates total-->
+            <p id="total-cost"></p><!--total cost calculated-->
+        </div>
+    </body>
+    <script src="petrolcalculator.js"></script><!--contains javascript file-->
+</html>
